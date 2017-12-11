@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.helpstacktest">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:name="HSApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!--below these activities are for resolving the action bar issue-->
+<!--
+        <activity android:name="com.tenmiles.helpstack.activities.HomeActivity"
+            android:theme="@style/AppThemeWithActionBar"></activity>
+        <activity android:name="com.tenmiles.helpstack.activities.ArticleActivity"
+            android:theme="@style/AppThemeWithActionBar"></activity>
+        <activity android:name="com.tenmiles.helpstack.activities.EditAttachmentActivity"
+            android:theme="@style/AppThemeWithActionBar"></activity>
+        <activity android:name="com.tenmiles.helpstack.activities.ImageAttachmentDisplayActivity"
+            android:theme="@style/AppThemeWithActionBar"></activity>
+        <activity android:name="com.tenmiles.helpstack.activities.IssueDetailActivity"
+            android:theme="@style/AppThemeWithActionBar"></activity>
+        <activity android:name="com.tenmiles.helpstack.activities.NewIssueActivity"
+            android:theme="@style/AppThemeWithActionBar"></activity>
+        <activity android:name="com.tenmiles.helpstack.activities.NewUserActivity"
+            android:theme="@style/AppThemeWithActionBar"></activity>
+        <activity android:name="com.tenmiles.helpstack.activities.SectionActivity"
+            android:theme="@style/AppThemeWithActionBar"></activity>
+        -->
+
+    </application>
+
+</manifest>
